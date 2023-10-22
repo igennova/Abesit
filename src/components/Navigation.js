@@ -2,9 +2,9 @@ import React, { Fragment, useState } from "react";
 import { NavLink } from "react-router-dom";
 
 import { createBrowserRouter ,RouterProvider} from "react-router-dom";
-import classes from "./Navigation.css";
+import  "./Navigation.css";
 
-const classNameFunc = ({ isActive }) => (isActive ? "active" : "");
+// const classNameFunc = ({ isActive }) => (isActive ? "active" : "");
 
 const NavigationBar=(props)=>{
   
@@ -12,9 +12,9 @@ const NavigationBar=(props)=>{
   
     return(<Fragment>
       <div className="topnav">
-      <NavLink className={classNameFunc} to="/">Home</NavLink>
+      <NavLink  to="/">Home</NavLink>
       <NavLink to="/admissions">Admission</NavLink>
-      <NavLink to="/faculty">Faculty</NavLink>
+      <NavLink to="/faculty">Placements</NavLink>
       <NavLink to="/about">About</NavLink>
     </div>
 

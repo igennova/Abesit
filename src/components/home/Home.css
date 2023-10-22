@@ -1,0 +1,62 @@
+.course-list {
+    font-family: Arial, sans-serif;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background-color: #fad9f8;
+    width: 800px;
+    height: 250px;  
+    border-color: black;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    
+  
+    
+  
+}
+
+.course-item {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(14, 41, 194);
+}
+
+.heading{
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+}
+@media  screen and (max-width: 420px)  {
+    
+.course-item {
+    margin-bottom: 10px;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(14, 41, 194);
+}
+.course-list {
+    font-family: Arial, sans-serif;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background-color: #fad9f8;
+    width: 380px;
+    height: 200px;  
+    border-color: black;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    
+  
+    
+  
+}
+
+    
+}
