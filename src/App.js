@@ -3,7 +3,7 @@ import { Fragment } from 'react';
 import Image from "./components/Image/Image"
 import {  Routes, Route } from "react-router-dom";
 
-import About from './components/Pages/About';
+import About from './components/About/About';
 import Home from './components/home/Home';
 import Adm from "./components/Pages/Admission/Admission"
 import Placements from './components/Pages/Placements/Placemts';

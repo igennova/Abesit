@@ -1,12 +1,21 @@
 .styling{
     font-size: 40px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: rgb(233, 112, 183);
+    background-color: rgb(205, 90, 37);
     margin: auto;
     margin-top: 30px;
-    width: 50%;
+    width: auto;
     color: black;
     border-radius: 20px;
     border-color: black;
     border-width: 2px;
+    display: inline-block;
+    align-items: center;
+}
+@media screen and (max-width :400px) {
+    .styling{
+    font-size: 30px;
+    display: inline;
+}
+    
 }
