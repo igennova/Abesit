@@ -20,7 +20,7 @@ const Placements = () => {
       <NavigationBar />
       <div className="nine">
         <h1>
-          Placement<span>ABESIT</span>
+          Placemo<span>ABESIT</span>
         </h1>
       </div>
       <div className="container">
